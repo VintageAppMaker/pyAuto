@@ -40,7 +40,7 @@ import subprocess
 def zoomSearch():
     zoom = auto.WindowControl(searchDepth=1, ClassName='ZPPTMainFrmWndClassEx')
     if not zoom.Exists(3, 1):
-        print('Can not find Notepad window')
+        print('Can not find Zoom window')
         exit(0)
     # print(zoom)
     selectByChildTree(zoom)
