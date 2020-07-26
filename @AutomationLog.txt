@@ -1,0 +1,887 @@
+2020-07-25 23:02:24.440 main.py[129] CalcOnWindows10 -> {ClassName: 'ApplicationFrameWindow', Compare: <function CalcOnWindows10.<locals>.<lambda> at 0x000001FE0BF273A0>, Desc: 'Calculator Window', ControlType: WindowControl} does not exist.
+2020-07-25 23:02:34.546 main.py[131] CalcOnWindows10 -> {ClassName: 'ApplicationFrameWindow', Compare: <function CalcOnWindows10.<locals>.<lambda> at 0x000001FE0BF273A0>, Desc: 'Calculator Window', ControlType: WindowControl} does not exist.
+2020-07-25 23:02:34.605 main.py[131] CalcOnWindows10 -> Find Control Timeout: {ClassName: 'ApplicationFrameWindow', Compare: <function CalcOnWindows10.<locals>.<lambda> at 0x000001FE0BF273A0>, Desc: 'Calculator Window', ControlType: WindowControl}
+2020-07-25 23:02:50.280 main.py[129] CalcOnWindows10 -> {ClassName: 'ApplicationFrameWindow', Compare: <function CalcOnWindows10.<locals>.<lambda> at 0x0000023EF47673A0>, Desc: 'Calculator Window', ControlType: WindowControl} does not exist.
+2020-07-25 23:03:00.377 main.py[131] CalcOnWindows10 -> {ClassName: 'ApplicationFrameWindow', Compare: <function CalcOnWindows10.<locals>.<lambda> at 0x0000023EF47673A0>, Desc: 'Calculator Window', ControlType: WindowControl} does not exist.
+2020-07-25 23:03:00.446 main.py[131] CalcOnWindows10 -> Find Control Timeout: {ClassName: 'ApplicationFrameWindow', Compare: <function CalcOnWindows10.<locals>.<lambda> at 0x0000023EF47673A0>, Desc: 'Calculator Window', ControlType: WindowControl}
+create a transparent image
+Namespace(active=False, cursor=False, fullscreen=True, path='capture.png', time=0, up=False)
+capture image: capture.png
+cost time: 0.127 s
+
+walk desktop for 2 depth
+
+walk 8 queens
+1
+x o o o o o o o 
+o o o o x o o o 
+o o o o o o o x 
+o o o o o x o o 
+o o x o o o o o 
+o o o o o o x o 
+o x o o o o o o 
+o o o x o o o o 
+2
+x o o o o o o o 
+o o o o o x o o 
+o o o o o o o x 
+o o x o o o o o 
+o o o o o o x o 
+o o o x o o o o 
+o x o o o o o o 
+o o o o x o o o 
+3
+x o o o o o o o 
+o o o o o o x o 
+o o o x o o o o 
+o o o o o x o o 
+o o o o o o o x 
+o x o o o o o o 
+o o o o x o o o 
+o o x o o o o o 
+4
+x o o o o o o o 
+o o o o o o x o 
+o o o o x o o o 
+o o o o o o o x 
+o x o o o o o o 
+o o o x o o o o 
+o o o o o x o o 
+o o x o o o o o 
+5
+o x o o o o o o 
+o o o x o o o o 
+o o o o o x o o 
+o o o o o o o x 
+o o x o o o o o 
+x o o o o o o o 
+o o o o o o x o 
+o o o o x o o o 
+6
+o x o o o o o o 
+o o o o x o o o 
+o o o o o o x o 
+x o o o o o o o 
+o o x o o o o o 
+o o o o o o o x 
+o o o o o x o o 
+o o o x o o o o 
+7
+o x o o o o o o 
+o o o o x o o o 
+o o o o o o x o 
+o o o x o o o o 
+x o o o o o o o 
+o o o o o o o x 
+o o o o o x o o 
+o o x o o o o o 
+8
+o x o o o o o o 
+o o o o o x o o 
+x o o o o o o o 
+o o o o o o x o 
+o o o x o o o o 
+o o o o o o o x 
+o o x o o o o o 
+o o o o x o o o 
+9
+o x o o o o o o 
+o o o o o x o o 
+o o o o o o o x 
+o o x o o o o o 
+x o o o o o o o 
+o o o x o o o o 
+o o o o o o x o 
+o o o o x o o o 
+10
+o x o o o o o o 
+o o o o o o x o 
+o o x o o o o o 
+o o o o o x o o 
+o o o o o o o x 
+o o o o x o o o 
+x o o o o o o o 
+o o o x o o o o 
+11
+o x o o o o o o 
+o o o o o o x o 
+o o o o x o o o 
+o o o o o o o x 
+x o o o o o o o 
+o o o x o o o o 
+o o o o o x o o 
+o o x o o o o o 
+12
+o x o o o o o o 
+o o o o o o o x 
+o o o o o x o o 
+x o o o o o o o 
+o o x o o o o o 
+o o o o x o o o 
+o o o o o o x o 
+o o o x o o o o 
+13
+o o x o o o o o 
+x o o o o o o o 
+o o o o o o x o 
+o o o o x o o o 
+o o o o o o o x 
+o x o o o o o o 
+o o o x o o o o 
+o o o o o x o o 
+14
+o o x o o o o o 
+o o o o x o o o 
+o x o o o o o o 
+o o o o o o o x 
+x o o o o o o o 
+o o o o o o x o 
+o o o x o o o o 
+o o o o o x o o 
+15
+o o x o o o o o 
+o o o o x o o o 
+o x o o o o o o 
+o o o o o o o x 
+o o o o o x o o 
+o o o x o o o o 
+o o o o o o x o 
+x o o o o o o o 
+16
+o o x o o o o o 
+o o o o x o o o 
+o o o o o o x o 
+x o o o o o o o 
+o o o x o o o o 
+o x o o o o o o 
+o o o o o o o x 
+o o o o o x o o 
+17
+o o x o o o o o 
+o o o o x o o o 
+o o o o o o o x 
+o o o x o o o o 
+x o o o o o o o 
+o o o o o o x o 
+o x o o o o o o 
+o o o o o x o o 
+18
+o o x o o o o o 
+o o o o o x o o 
+o x o o o o o o 
+o o o o x o o o 
+o o o o o o o x 
+x o o o o o o o 
+o o o o o o x o 
+o o o x o o o o 
+19
+o o x o o o o o 
+o o o o o x o o 
+o x o o o o o o 
+o o o o o o x o 
+x o o o o o o o 
+o o o x o o o o 
+o o o o o o o x 
+o o o o x o o o 
+20
+o o x o o o o o 
+o o o o o x o o 
+o x o o o o o o 
+o o o o o o x o 
+o o o o x o o o 
+x o o o o o o o 
+o o o o o o o x 
+o o o x o o o o 
+21
+o o x o o o o o 
+o o o o o x o o 
+o o o x o o o o 
+x o o o o o o o 
+o o o o o o o x 
+o o o o x o o o 
+o o o o o o x o 
+o x o o o o o o 
+22
+o o x o o o o o 
+o o o o o x o o 
+o o o x o o o o 
+o x o o o o o o 
+o o o o o o o x 
+o o o o x o o o 
+o o o o o o x o 
+x o o o o o o o 
+23
+o o x o o o o o 
+o o o o o x o o 
+o o o o o o o x 
+x o o o o o o o 
+o o o x o o o o 
+o o o o o o x o 
+o o o o x o o o 
+o x o o o o o o 
+24
+o o x o o o o o 
+o o o o o x o o 
+o o o o o o o x 
+x o o o o o o o 
+o o o o x o o o 
+o o o o o o x o 
+o x o o o o o o 
+o o o x o o o o 
+25
+o o x o o o o o 
+o o o o o x o o 
+o o o o o o o x 
+o x o o o o o o 
+o o o x o o o o 
+x o o o o o o o 
+o o o o o o x o 
+o o o o x o o o 
+26
+o o x o o o o o 
+o o o o o o x o 
+o x o o o o o o 
+o o o o o o o x 
+o o o o x o o o 
+x o o o o o o o 
+o o o x o o o o 
+o o o o o x o o 
+27
+o o x o o o o o 
+o o o o o o x o 
+o x o o o o o o 
+o o o o o o o x 
+o o o o o x o o 
+o o o x o o o o 
+x o o o o o o o 
+o o o o x o o o 
+28
+o o x o o o o o 
+o o o o o o o x 
+o o o x o o o o 
+o o o o o o x o 
+x o o o o o o o 
+o o o o o x o o 
+o x o o o o o o 
+o o o o x o o o 
+29
+o o o x o o o o 
+x o o o o o o o 
+o o o o x o o o 
+o o o o o o o x 
+o x o o o o o o 
+o o o o o o x o 
+o o x o o o o o 
+o o o o o x o o 
+30
+o o o x o o o o 
+x o o o o o o o 
+o o o o x o o o 
+o o o o o o o x 
+o o o o o x o o 
+o o x o o o o o 
+o o o o o o x o 
+o x o o o o o o 
+31
+o o o x o o o o 
+o x o o o o o o 
+o o o o x o o o 
+o o o o o o o x 
+o o o o o x o o 
+x o o o o o o o 
+o o x o o o o o 
+o o o o o o x o 
+32
+o o o x o o o o 
+o x o o o o o o 
+o o o o o o x o 
+o o x o o o o o 
+o o o o o x o o 
+o o o o o o o x 
+x o o o o o o o 
+o o o o x o o o 
+33
+o o o x o o o o 
+o x o o o o o o 
+o o o o o o x o 
+o o x o o o o o 
+o o o o o x o o 
+o o o o o o o x 
+o o o o x o o o 
+x o o o o o o o 
+34
+o o o x o o o o 
+o x o o o o o o 
+o o o o o o x o 
+o o o o x o o o 
+x o o o o o o o 
+o o o o o o o x 
+o o o o o x o o 
+o o x o o o o o 
+35
+o o o x o o o o 
+o x o o o o o o 
+o o o o o o o x 
+o o o o x o o o 
+o o o o o o x o 
+x o o o o o o o 
+o o x o o o o o 
+o o o o o x o o 
+36
+o o o x o o o o 
+o x o o o o o o 
+o o o o o o o x 
+o o o o o x o o 
+x o o o o o o o 
+o o x o o o o o 
+o o o o x o o o 
+o o o o o o x o 
+37
+o o o x o o o o 
+o o o o o x o o 
+x o o o o o o o 
+o o o o x o o o 
+o x o o o o o o 
+o o o o o o o x 
+o o x o o o o o 
+o o o o o o x o 
+38
+o o o x o o o o 
+o o o o o x o o 
+o o o o o o o x 
+o x o o o o o o 
+o o o o o o x o 
+x o o o o o o o 
+o o x o o o o o 
+o o o o x o o o 
+39
+o o o x o o o o 
+o o o o o x o o 
+o o o o o o o x 
+o o x o o o o o 
+x o o o o o o o 
+o o o o o o x o 
+o o o o x o o o 
+o x o o o o o o 
+40
+o o o x o o o o 
+o o o o o o x o 
+x o o o o o o o 
+o o o o o o o x 
+o o o o x o o o 
+o x o o o o o o 
+o o o o o x o o 
+o o x o o o o o 
+41
+o o o x o o o o 
+o o o o o o x o 
+o o x o o o o o 
+o o o o o o o x 
+o x o o o o o o 
+o o o o x o o o 
+x o o o o o o o 
+o o o o o x o o 
+42
+o o o x o o o o 
+o o o o o o x o 
+o o o o x o o o 
+o x o o o o o o 
+o o o o o x o o 
+x o o o o o o o 
+o o x o o o o o 
+o o o o o o o x 
+43
+o o o x o o o o 
+o o o o o o x o 
+o o o o x o o o 
+o o x o o o o o 
+x o o o o o o o 
+o o o o o x o o 
+o o o o o o o x 
+o x o o o o o o 
+44
+o o o x o o o o 
+o o o o o o o x 
+x o o o o o o o 
+o o x o o o o o 
+o o o o o x o o 
+o x o o o o o o 
+o o o o o o x o 
+o o o o x o o o 
+45
+o o o x o o o o 
+o o o o o o o x 
+x o o o o o o o 
+o o o o x o o o 
+o o o o o o x o 
+o x o o o o o o 
+o o o o o x o o 
+o o x o o o o o 
+46
+o o o x o o o o 
+o o o o o o o x 
+o o o o x o o o 
+o o x o o o o o 
+x o o o o o o o 
+o o o o o o x o 
+o x o o o o o o 
+o o o o o x o o 
+47
+o o o o x o o o 
+x o o o o o o o 
+o o o x o o o o 
+o o o o o x o o 
+o o o o o o o x 
+o x o o o o o o 
+o o o o o o x o 
+o o x o o o o o 
+48
+o o o o x o o o 
+x o o o o o o o 
+o o o o o o o x 
+o o o x o o o o 
+o x o o o o o o 
+o o o o o o x o 
+o o x o o o o o 
+o o o o o x o o 
+49
+o o o o x o o o 
+x o o o o o o o 
+o o o o o o o x 
+o o o o o x o o 
+o o x o o o o o 
+o o o o o o x o 
+o x o o o o o o 
+o o o x o o o o 
+50
+o o o o x o o o 
+o x o o o o o o 
+o o o x o o o o 
+o o o o o x o o 
+o o o o o o o x 
+o o x o o o o o 
+x o o o o o o o 
+o o o o o o x o 
+51
+o o o o x o o o 
+o x o o o o o o 
+o o o x o o o o 
+o o o o o o x o 
+o o x o o o o o 
+o o o o o o o x 
+o o o o o x o o 
+x o o o o o o o 
+52
+o o o o x o o o 
+o x o o o o o o 
+o o o o o x o o 
+x o o o o o o o 
+o o o o o o x o 
+o o o x o o o o 
+o o o o o o o x 
+o o x o o o o o 
+53
+o o o o x o o o 
+o x o o o o o o 
+o o o o o o o x 
+x o o o o o o o 
+o o o x o o o o 
+o o o o o o x o 
+o o x o o o o o 
+o o o o o x o o 
+54
+o o o o x o o o 
+o o x o o o o o 
+x o o o o o o o 
+o o o o o x o o 
+o o o o o o o x 
+o x o o o o o o 
+o o o x o o o o 
+o o o o o o x o 
+55
+o o o o x o o o 
+o o x o o o o o 
+x o o o o o o o 
+o o o o o o x o 
+o x o o o o o o 
+o o o o o o o x 
+o o o o o x o o 
+o o o x o o o o 
+56
+o o o o x o o o 
+o o x o o o o o 
+o o o o o o o x 
+o o o x o o o o 
+o o o o o o x o 
+x o o o o o o o 
+o o o o o x o o 
+o x o o o o o o 
+57
+o o o o x o o o 
+o o o o o o x o 
+x o o o o o o o 
+o o x o o o o o 
+o o o o o o o x 
+o o o o o x o o 
+o o o x o o o o 
+o x o o o o o o 
+58
+o o o o x o o o 
+o o o o o o x o 
+x o o o o o o o 
+o o o x o o o o 
+o x o o o o o o 
+o o o o o o o x 
+o o o o o x o o 
+o o x o o o o o 
+59
+o o o o x o o o 
+o o o o o o x o 
+o x o o o o o o 
+o o o x o o o o 
+o o o o o o o x 
+x o o o o o o o 
+o o x o o o o o 
+o o o o o x o o 
+60
+o o o o x o o o 
+o o o o o o x o 
+o x o o o o o o 
+o o o o o x o o 
+o o x o o o o o 
+x o o o o o o o 
+o o o x o o o o 
+o o o o o o o x 
+61
+o o o o x o o o 
+o o o o o o x o 
+o x o o o o o o 
+o o o o o x o o 
+o o x o o o o o 
+x o o o o o o o 
+o o o o o o o x 
+o o o x o o o o 
+62
+o o o o x o o o 
+o o o o o o x o 
+o o o x o o o o 
+x o o o o o o o 
+o o x o o o o o 
+o o o o o o o x 
+o o o o o x o o 
+o x o o o o o o 
+63
+o o o o x o o o 
+o o o o o o o x 
+o o o x o o o o 
+x o o o o o o o 
+o o x o o o o o 
+o o o o o x o o 
+o x o o o o o o 
+o o o o o o x o 
+64
+o o o o x o o o 
+o o o o o o o x 
+o o o x o o o o 
+x o o o o o o o 
+o o o o o o x o 
+o x o o o o o o 
+o o o o o x o o 
+o o x o o o o o 
+65
+o o o o o x o o 
+x o o o o o o o 
+o o o o x o o o 
+o x o o o o o o 
+o o o o o o o x 
+o o x o o o o o 
+o o o o o o x o 
+o o o x o o o o 
+66
+o o o o o x o o 
+o x o o o o o o 
+o o o o o o x o 
+x o o o o o o o 
+o o x o o o o o 
+o o o o x o o o 
+o o o o o o o x 
+o o o x o o o o 
+67
+o o o o o x o o 
+o x o o o o o o 
+o o o o o o x o 
+x o o o o o o o 
+o o o x o o o o 
+o o o o o o o x 
+o o o o x o o o 
+o o x o o o o o 
+68
+o o o o o x o o 
+o o x o o o o o 
+x o o o o o o o 
+o o o o o o x o 
+o o o o x o o o 
+o o o o o o o x 
+o x o o o o o o 
+o o o x o o o o 
+69
+o o o o o x o o 
+o o x o o o o o 
+x o o o o o o o 
+o o o o o o o x 
+o o o x o o o o 
+o x o o o o o o 
+o o o o o o x o 
+o o o o x o o o 
+70
+o o o o o x o o 
+o o x o o o o o 
+x o o o o o o o 
+o o o o o o o x 
+o o o o x o o o 
+o x o o o o o o 
+o o o x o o o o 
+o o o o o o x o 
+71
+o o o o o x o o 
+o o x o o o o o 
+o o o o x o o o 
+o o o o o o x o 
+x o o o o o o o 
+o o o x o o o o 
+o x o o o o o o 
+o o o o o o o x 
+72
+o o o o o x o o 
+o o x o o o o o 
+o o o o x o o o 
+o o o o o o o x 
+x o o o o o o o 
+o o o x o o o o 
+o x o o o o o o 
+o o o o o o x o 
+73
+o o o o o x o o 
+o o x o o o o o 
+o o o o o o x o 
+o x o o o o o o 
+o o o x o o o o 
+o o o o o o o x 
+x o o o o o o o 
+o o o o x o o o 
+74
+o o o o o x o o 
+o o x o o o o o 
+o o o o o o x o 
+o x o o o o o o 
+o o o o o o o x 
+o o o o x o o o 
+x o o o o o o o 
+o o o x o o o o 
+75
+o o o o o x o o 
+o o x o o o o o 
+o o o o o o x o 
+o o o x o o o o 
+x o o o o o o o 
+o o o o o o o x 
+o x o o o o o o 
+o o o o x o o o 
+76
+o o o o o x o o 
+o o o x o o o o 
+x o o o o o o o 
+o o o o x o o o 
+o o o o o o o x 
+o x o o o o o o 
+o o o o o o x o 
+o o x o o o o o 
+77
+o o o o o x o o 
+o o o x o o o o 
+o x o o o o o o 
+o o o o o o o x 
+o o o o x o o o 
+o o o o o o x o 
+x o o o o o o o 
+o o x o o o o o 
+78
+o o o o o x o o 
+o o o x o o o o 
+o o o o o o x o 
+x o o o o o o o 
+o o x o o o o o 
+o o o o x o o o 
+o x o o o o o o 
+o o o o o o o x 
+79
+o o o o o x o o 
+o o o x o o o o 
+o o o o o o x o 
+x o o o o o o o 
+o o o o o o o x 
+o x o o o o o o 
+o o o o x o o o 
+o o x o o o o o 
+80
+o o o o o x o o 
+o o o o o o o x 
+o x o o o o o o 
+o o o x o o o o 
+x o o o o o o o 
+o o o o o o x o 
+o o o o x o o o 
+o o x o o o o o 
+81
+o o o o o o x o 
+x o o o o o o o 
+o o x o o o o o 
+o o o o o o o x 
+o o o o o x o o 
+o o o x o o o o 
+o x o o o o o o 
+o o o o x o o o 
+82
+o o o o o o x o 
+o x o o o o o o 
+o o o x o o o o 
+x o o o o o o o 
+o o o o o o o x 
+o o o o x o o o 
+o o x o o o o o 
+o o o o o x o o 
+83
+o o o o o o x o 
+o x o o o o o o 
+o o o o o x o o 
+o o x o o o o o 
+x o o o o o o o 
+o o o x o o o o 
+o o o o o o o x 
+o o o o x o o o 
+84
+o o o o o o x o 
+o o x o o o o o 
+x o o o o o o o 
+o o o o o x o o 
+o o o o o o o x 
+o o o o x o o o 
+o x o o o o o o 
+o o o x o o o o 
+85
+o o o o o o x o 
+o o x o o o o o 
+o o o o o o o x 
+o x o o o o o o 
+o o o o x o o o 
+x o o o o o o o 
+o o o o o x o o 
+o o o x o o o o 
+86
+o o o o o o x o 
+o o o x o o o o 
+o x o o o o o o 
+o o o o x o o o 
+o o o o o o o x 
+x o o o o o o o 
+o o x o o o o o 
+o o o o o x o o 
+87
+o o o o o o x o 
+o o o x o o o o 
+o x o o o o o o 
+o o o o o o o x 
+o o o o o x o o 
+x o o o o o o o 
+o o x o o o o o 
+o o o o x o o o 
+88
+o o o o o o x o 
+o o o o x o o o 
+o o x o o o o o 
+x o o o o o o o 
+o o o o o x o o 
+o o o o o o o x 
+o x o o o o o o 
+o o o x o o o o 
+89
+o o o o o o o x 
+o x o o o o o o 
+o o o x o o o o 
+x o o o o o o o 
+o o o o o o x o 
+o o o o x o o o 
+o o x o o o o o 
+o o o o o x o o 
+90
+o o o o o o o x 
+o x o o o o o o 
+o o o o x o o o 
+o o x o o o o o 
+x o o o o o o o 
+o o o o o o x o 
+o o o x o o o o 
+o o o o o x o o 
+91
+o o o o o o o x 
+o o x o o o o o 
+x o o o o o o o 
+o o o o o x o o 
+o x o o o o o o 
+o o o o x o o o 
+o o o o o o x o 
+o o o x o o o o 
+92
+o o o o o o o x 
+o o o x o o o o 
+x o o o o o o o 
+o o x o o o o o 
+o o o o o x o o 
+o x o o o o o o 
+o o o o o o x o 
+o o o o x o o o 
+
+walk permutations for "abc"
+I will run cmd
+
+I will run cmd
+
+I will run cmd
+
+I will run Notepad and type Hello!!!
+
+I will run cmd
+
+I will run Notepad and type Hello!!!
+
+run "automation.py -h" to display the help
+
+I will run cmd
+
+I will run Notepad and type Hello!!!
+
+run "automation.py -h" to display the help
+
+I will run cmd
+
+I will run Notepad and type Hello!!!
+
+run "automation.py -h" to display the help
+
+run "automation.py -r -d1" to display the top level windows, desktop's children
+
+run "automation.py -c" to display the control under mouse cursor
+
+run "automation.py -a" to display the control under mouse cursor and its ancestors
+
+run "automation.py" to display the active window
+
+press Enter to exit
+2020-07-26 08:40:45.561 main.py[198] myTest -> Find Control Timeout: {ControlType: ButtonControl}
+2020-07-26 08:40:58.369 main.py[198] myTest -> Find Control Timeout: {ControlType: ButtonControl}
+2020-07-26 09:06:33.257 main.py[198] myTest -> Find Control Timeout: {ControlType: ButtonControl}
+2020-07-26 09:07:24.673 main.py[198] myTest -> Find Control Timeout: {ControlType: ButtonControl}
+2020-07-26 09:08:03.800 main.py[198] myTest -> Find Control Timeout: {ControlType: WindowControl}
+2020-07-26 09:08:55.479 main.py[198] myTest -> Find Control Timeout: {ClassName: 'PaneControl', ControlType: WindowControl}
+2020-07-26 10:37:27.183 main.py[73] CaculatorShow -> Find Control Timeout: {Name: '*', ControlType: ButtonControl}
+2020-07-26 10:39:10.166 main.py[73] CaculatorShow -> Find Control Timeout: {Name: '.', ControlType: ButtonControl}
