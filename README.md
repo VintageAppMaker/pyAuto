@@ -15,6 +15,7 @@ https://github.com/yinkaisheng/Python-UIAutomation-for-Windows
 - pycharm 
   - uiautomation
   - pywin32
+  - 인터프리터는 VirtualEnv(VENV)에서 설정
 
 ![](setting.png)
 
