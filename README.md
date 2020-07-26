@@ -13,8 +13,8 @@ https://github.com/yinkaisheng/Python-UIAutomation-for-Windows
 
 - python 3.8
 - pycharm 
-  - uiautomation
-  - pywin32
+  - uiautomation(pip install uiautomation)
+  - pywin32(pip install pywin32)
   - 인터프리터는 VirtualEnv(VENV)에서 설정
 
 ![](setting.png)
