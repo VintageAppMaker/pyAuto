@@ -1,4 +1,4 @@
-## Python 기반의 RPA(Remote Process Automation)
+## Python 기반의 RPA(Robotic Process Automation)
 
 > 자동화 솔루션을 만들 때 Python의 레퍼런스가 제일 많다 . 그러나 대부분 Console 기반이었지만, GUI가 있는 프로그램의 경우도 종종 자동화 솔루션이 제공될 때가 있다. 이 때 사용하는 엔진이 Microsoft에서 제공하는 [UI Automation](https://docs.microsoft.com/ko-kr/dotnet/framework/ui-automation/ui-automation-overview)이다. 
 
