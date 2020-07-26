@@ -75,8 +75,8 @@ def CaculatorShow():
 
 
 # function table
-
 pFunc = [zoomSearch, CaculatorShow ]
+
 if __name__ == '__main__':
     uiLanguage = ctypes.windll.kernel32.GetUserDefaultUILanguage()
 
